@@ -7,7 +7,7 @@ import {
 } from 'immutable';
 
 
-export function generateTypedRecord<TModelSignature> (defaultValues:TModelSignature, name?:string) : TypedRecord<TModelSignature> {
-    const typedRecord = Record(defaultValues, name) as any as  TypedRecord<TModelSignature>;
+export function generateTypedRecord<TModelSignature> (defaultValues:TModelSignature, name?:string): TypedRecord<TModelSignature> {
+    const typedRecord = Record(defaultValues, name) as any as TypedRecord<TModelSignature>;
     return typedRecord;     
 }

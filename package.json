@@ -1,5 +1,5 @@
 {
-  "name": "immutable-model-helpers",
+  "name": "@bryanerayner/immutable-model-helpers",
   "version": "1.0.0",
   "description": "Helpers for defining strongly typed instances of Immutable.js Record.Class",
   "main": "lib/index.js",
