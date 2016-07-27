@@ -1,0 +1,31 @@
+{
+  "name": "immutable-model-helpers",
+  "version": "1.0.0",
+  "description": "Helpers for defining strongly typed instances of Immutable.js Record.Class",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bryanerayner@github.com/bryanerayner/immutable-model-helpers.git"
+  },
+  "keywords": [
+    "immutable",
+    "orm",
+    "record"
+  ],
+  "typings": "lib/index",
+  "author": "Bryan Rayner",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bryanerayner/immutable-model-helpers/issues"
+  },
+  "homepage": "https://github.com/bryanerayner/immutable-model-helpers#readme",
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.0"
+  }
+}
