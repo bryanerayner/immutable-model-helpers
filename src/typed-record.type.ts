@@ -4,10 +4,13 @@ import {
     Iterable
 } from 'immutable';
 
-export interface TypedRecord<T>  {
-    new(): TypedRecord<T> & T;
 
-    new(values:T): TypedRecord<T> & T;
+
+
+export interface TypedRecord<T> {
+    new(): TypedRecord<T>;
+
+    new(values:T): TypedRecord<T>;
     
     // Persistent changes
 
@@ -270,4 +273,10 @@ export interface TypedRecord<T>  {
      * copy has become immutable and can be safely returned from a function.
      */
     asImmutable(): TypedRecord<T> & T;
+}
+
+
+
+export interface TypedRecordClass<T> {
+  new(defaultValues?:T):TypedRecordClass<T>;
 }
